@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+💱 Simple Currency Converter (React + TypeScript)
+This project was created as a technical test for Rira Company.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a simple and clean currency converter between US dollars and Iranian rials, developed according to the client’s requirements.
 
-## Available Scripts
+A straightforward app to convert between USD ↔ IRR, built with React and TypeScript.
 
-In the project directory, you can run:
+      🚀 Features
+      
+Convert USD to IRR 
 
-### `npm start`
+Fixed exchange rate: 1 USD = 920,000 IRR
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Clean and simple user interface
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Built using React and TypeScript
 
-### `npm test`
+According to the client’s request to keep the project simple:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The USD ↔ IRR exchange rate is hardcoded as a fixed value in the code, without using any API.
 
-### `npm run build`
+All the logic and user interface are implemented inside the App.tsx file to keep the project structure light and straightforward.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The main goal was to deliver a lightweight, readable, and clean project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+     🎨 Color Palette
+     
+This project uses a soft and calming color palette inspired by Color Hunt:
 
-### `npm run eject`
+#ECFAE5
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#DDF6D2
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#CAE8BD
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#B0DB9C
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feel free to check it out and get inspired!
 
-## Learn More
+📂 Installation and Running
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
+
+npm start
