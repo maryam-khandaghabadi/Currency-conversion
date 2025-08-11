@@ -41,6 +41,7 @@
   border: #DDF6D2 1px solid;
   border-radius: 10px;
   padding-left: 10px;
+  font-size: medium;
 }
 .fromSection{
   background-color: white;
@@ -104,6 +105,9 @@
   .container{
     width: 70%;
     margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
   }
   .title{
     font-size: medium;
